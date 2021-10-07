@@ -66,6 +66,10 @@ class _HomePageState extends State<HomePage> {
       case("circle"):
       return circle;
       break;
+
+      default:
+        return edit;
+        break;
     }
   }
 
